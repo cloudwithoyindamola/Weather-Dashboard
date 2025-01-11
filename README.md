@@ -44,6 +44,7 @@ A robust weather data collection system that fetches real-time weather data usin
 3. **Configure AWS CLI**
    ```bash
    aws configure
+   Note:- Make sure your configured DEFAULT REGION matches with the .env "your_preferred_aws_region"
 4. **Configure Environment Variables Create a .env file in the root directory:**
    ```bash
    OPENWEATHER_API_KEY=your_openweather_api_key
