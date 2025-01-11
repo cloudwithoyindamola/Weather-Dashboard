@@ -32,24 +32,21 @@ weather-dashboard-demo/
 ├── README.md                      # Project documentation
 
 ## Installation
-
 1. **Clone the Repository**
-   ```
    git clone https://https://github.com/cloudwithoyindamola/Weather-Dashboard
    cd weather-dashboard
-2. **Install Dependenc**
- pip install -r requirements.txt
+2. **Install Dependencies**
+   pip install -r requirements.txt
 3. **Configure AWS CLI**
-  aws configure
+   aws configure
 4. **Configure Environment Variables Create a .env file in the root directory:**
-  OPENWEATHER_API_KEY=your_openweather_api_key
-  AWS_ACCESS_KEY_ID=your_aws_access_key_id
-  AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
-  AWS_BUCKET_NAME=your_unique_bucket_name
-  AWS_DEFAULT_REGION=your_preferred_aws_region
+   OPENWEATHER_API_KEY=your_openweather_api_key
+   AWS_ACCESS_KEY_ID=your_aws_access_key_id
+   AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+   AWS_BUCKET_NAME=your_unique_bucket_name
+   AWS_DEFAULT_REGION=your_preferred_aws_region
 5. **Run the weather dashboard script**
-  ```
-  python src/weather_dashboard.py
+  `python src/weather_dashboard.py`
 
 #### The script will:
 
