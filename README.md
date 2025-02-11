@@ -19,8 +19,11 @@ A robust weather data collection system that fetches real-time weather data usin
   - boto3 (AWS SDK)
   - requests
   - python-dotenv
+ 
+## Project Architecture
+![Diagram Description](Dashboard Architecture.png)
 
-## Project Structre
+## Project Structure
 >
 >   ```
 >   weather-dashboard-demo/
