@@ -21,7 +21,7 @@ A robust weather data collection system that fetches real-time weather data usin
   - python-dotenv
  
 ## Project Architecture
-![Diagram Description](Dashboard Architecture.png)
+![Weather-Dashboard](Dashboard-Architecture.png)
 
 ## Project Structure
 >
