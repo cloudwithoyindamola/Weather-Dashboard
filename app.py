@@ -60,7 +60,7 @@ dashboard = WeatherDashboard()
 
 @app.route("/")
 def home():
-    return "<h1>Weather Dashboard is Running ✅</h1><p>Visit /weather to fetch data</p>"
+    return "<h1>Weather Dashboard is now Running ✅</h1><p>Visit /weather to fetch data</p>"
 
 @app.route("/weather")
 def get_weather():
